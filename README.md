@@ -9,7 +9,7 @@
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `933065f`
+- Коммит: `919a215`
 - Дата: `2026-05-05`
 
 ## Быстрый старт
@@ -34,10 +34,16 @@
    git push -u origin production
    ```
 
-4. Установить инструменты PM (из папки проекта):
+4. Установить инструменты PM — открыть **PowerShell** и выполнить из папки проекта:
    ```powershell
    cd <папка-проекта>
+
+   # PowerShell 7+ (pwsh):
    pwsh -ExecutionPolicy Bypass -File tools/get-tools.ps1
+
+   # PowerShell 5 (встроен в Windows 10):
+   powershell -ExecutionPolicy Bypass -File tools/get-tools.ps1
    ```
+   Если не знаете версию — попробуйте первый вариант, при ошибке используйте второй.
 
 5. Открыть папку проекта в VS Code — следовать инструкциям в `CLAUDE.md`
