@@ -9,7 +9,7 @@
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `73ecbfe`
+- Коммит: `933065f`
 - Дата: `2026-05-05`
 
 ## Быстрый старт
@@ -30,12 +30,13 @@
    git branch -m production
    git add .
    git commit -m "feat: init from 1c-extension-ecosystem template"
-   git remote add origin https://github.com/логин/1c-ext-мой-проект.git
+   git remote add origin https://github.com/логин/мой-репозиторий.git
    git push -u origin production
    ```
 
-4. Установить инструменты PM:
+4. Установить инструменты PM (из папки проекта):
    ```powershell
+   cd <папка-проекта>
    pwsh -ExecutionPolicy Bypass -File tools/get-tools.ps1
    ```
 
