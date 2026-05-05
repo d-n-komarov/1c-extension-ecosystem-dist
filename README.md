@@ -9,7 +9,7 @@
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `c7dbf3e`
+- Коммит: `73ecbfe`
 - Дата: `2026-05-05`
 
 ## Быстрый старт
@@ -27,6 +27,7 @@
 3. Инициализировать git в распакованной папке:
    ```powershell
    git init
+   git branch -m production
    git add .
    git commit -m "feat: init from 1c-extension-ecosystem template"
    git remote add origin https://github.com/логин/1c-ext-мой-проект.git
