@@ -6,10 +6,14 @@
 
 👉 [1c-extension-ecosystem.zip](./1c-extension-ecosystem.zip)
 
+Последний стабильный релиз (если выпущен):
+
+👉 [Releases](https://github.com/d-n-komarov/1c-extension-ecosystem-dist/releases/latest)
+
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `61f7210`
+- Коммит: `2325ed8`
 - Дата: `2026-05-07`
 
 ## Быстрый старт
@@ -18,11 +22,11 @@
 
 2. Создать репозиторий на GitHub:
    - Открыть [github.com/new](https://github.com/new)
-   - Repository name: например 
+   - Repository name: например `1c-мой-проект`
    - Visibility: Private
    - **Не инициализировать** (без README, без .gitignore)
    - Нажать **Create repository**
-   - Скопировать URL репозитория (напр. )
+   - Скопировать URL репозитория
 
 3. Инициализировать git в распакованной папке:
    ```powershell
@@ -34,16 +38,10 @@
    git push -u origin production
    ```
 
-4. Установить инструменты PM — открыть **PowerShell** и выполнить из папки проекта:
+4. Установить инструменты PM — открыть **PowerShell** из папки проекта:
    ```powershell
    cd <папка-проекта>
-
-   # PowerShell 7+ (pwsh):
-   pwsh -ExecutionPolicy Bypass -File tools/get-tools.ps1
-
-   # PowerShell 5 (встроен в Windows 10):
    powershell -ExecutionPolicy Bypass -File tools/get-tools.ps1
    ```
-   Если не знаете версию — попробуйте первый вариант, при ошибке используйте второй.
 
 5. Открыть папку проекта в VS Code — следовать инструкциям в `CLAUDE.md`
