@@ -8,10 +8,14 @@
 
 👉 [1C-Ecosystem.pdf](./1C-Ecosystem.pdf) — презентация для заказчиков и команды
 
+Последний стабильный релиз (если выпущен):
+
+👉 [Releases](https://github.com/d-n-komarov/1c-extension-ecosystem-dist/releases/latest)
+
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `63c59b5`
+- Коммит: `8bf0863`
 - Дата: `2026-05-08`
 
 ## Быстрый старт
