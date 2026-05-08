@@ -2,18 +2,16 @@
 
 Публичный дистрибутив шаблона экосистемы разработки расширений 1С:Предприятие 8.3.
 
-## Скачать
+## Материалы
 
-👉 [1c-extension-ecosystem.zip](./1c-extension-ecosystem.zip)
+👉 [1c-extension-ecosystem.zip](./1c-extension-ecosystem.zip) — шаблон экосистемы
 
-Последний стабильный релиз (если выпущен):
-
-👉 [Releases](https://github.com/d-n-komarov/1c-extension-ecosystem-dist/releases/latest)
+👉 [1C-Ecosystem.pdf](./1C-Ecosystem.pdf) — презентация для заказчиков и команды
 
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `732a099`
+- Коммит: `63c59b5`
 - Дата: `2026-05-08`
 
 ## Быстрый старт
