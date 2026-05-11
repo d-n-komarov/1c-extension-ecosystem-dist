@@ -15,7 +15,7 @@
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `89ee091`
+- Коммит: `71c447a`
 - Дата: `2026-05-11`
 
 ## Быстрый старт
@@ -45,5 +45,23 @@
    cd <папка-проекта>
    powershell -ExecutionPolicy Bypass -File tools/get-tools.ps1
    ```
+   Будут установлены (версии зафиксированы):
+   - Python 3.12.10 embeddable
+   - saby v8unpack 1.2.6 (разборка .cf/.cfe в исходники)
+   - anthropic SDK (AI review в CI/CD)
+   - mcp-server-git (Git MCP для Claude Code)
+   - OneScript 2.0.1 (запуск задач .os)
+   - BSL Language Server 0.29.0 + Temurin JRE 21 (синтаксконтроль)
 
-5. Открыть папку проекта в VS Code — следовать инструкциям в `CLAUDE.md`
+5. Запустить Claude Code — открыть **PowerShell** из папки проекта:
+   ```powershell
+   cd <папка-проекта>
+   claude
+   ```
+   Claude Code запустит PM автоматически. Первое сообщение которое отправить:
+   ```
+   Прочитай CLAUDE.md и начни инициализацию проекта.
+   ```
+   PM сам определит каталог, настроит .mcp.json и проведёт через все шаги.
+
+6. (Опционально) Открыть папку проекта в **VS Code** для работы с кодом расширения.
