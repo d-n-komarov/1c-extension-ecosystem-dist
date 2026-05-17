@@ -15,32 +15,24 @@
 ## Версия
 
 - Сборка: `latest`
-- Коммит: `da3069f`
+- Коммит: `6145ebd`
 - Дата: `2026-05-17`
 
 ## Быстрый старт
 
 1. Скачать ZIP и распаковать в папку проекта
 
-2. Создать репозиторий на GitHub:
-   - Открыть [github.com/new](https://github.com/new)
-   - Repository name: например `my-1c-project`
-   - Visibility: Private
-   - **Не инициализировать** (без README, без .gitignore)
-   - Нажать **Create repository**
-   - Скопировать URL репозитория
-
-3. Инициализировать git в распакованной папке:
+2. (Опционально) Подключить к git-хостингу:
    ```powershell
    git init
    git branch -m production
    git add .
    git commit -m "feat: init from 1c-extension-ecosystem template"
-   git remote add origin https://github.com/<github-username>/<project-ecosystem-repo>.git
+   git remote add origin <url-репозитория>
    git push -u origin production
    ```
 
-4. Открыть проект в Claude — на выбор:
+3. Открыть проект в Claude — на выбор:
 
    **Claude CLI (PowerShell):** `cd <папка-проекта> && claude`
 
